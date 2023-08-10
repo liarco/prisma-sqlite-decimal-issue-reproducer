@@ -1,0 +1,20 @@
+{
+  "name": "prisma-sqlite-decimal-issue-reproducer",
+  "version": "1.0.0",
+  "main": "index.ts",
+  "author": "Marco Lipparini <developer@liarco.net>",
+  "license": "MIT",
+  "private": true,
+  "dependencies": {
+    "@prisma/client": "5.1.1",
+    "@types/node": "^20.4.9",
+    "decimal.js": "^10.4.3",
+    "prisma": "^5.1.1",
+    "ts-node": "^10.9.1",
+    "tsx": "^3.12.7",
+    "typescript": "^5.1.6"
+  },
+  "scripts": {
+    "start": "tsx index.ts"
+  }
+}
