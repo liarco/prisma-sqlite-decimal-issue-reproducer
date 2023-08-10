@@ -12,5 +12,5 @@ datasource db {
 
 model DecimalValue {
   id      Int     @id @default(autoincrement())
-  myValue Decimal
+  myValue Float
 }
